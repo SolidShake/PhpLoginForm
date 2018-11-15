@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/ajax.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <form method="POST" id="ajax_form" action="">
+            <input type="text" value="Логин" onfocus='if(this.value=="Логин"){this.value="";}' id="userLogin" name="name"></input>
+            <input type="password" value="Пароль" onfocus='if(this.value=="Пароль"){this.value="";}' id="userPassword"
+                name="password"></input>
+            <button id="submit">Войти</button>
+            <div id="result_form"></div>
+            <div id="registration">
+                <p>Нет аккаунта? <a href="#">Регистрация</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

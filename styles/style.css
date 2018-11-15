@@ -1,0 +1,68 @@
+body {
+    background-color: #2b2e38;
+}
+
+#userLogin,
+#userPassword,
+#submit {
+    border: 0;
+    padding: 0;
+    outline: none;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#userLogin {
+    color: rgb(150, 150, 150);
+    width: 250px;
+    background: url(../images/user.png) no-repeat center left;
+    background-position: 20px;
+    border-radius: 5px;
+    background-color: #383c49;
+    padding-left: 50px;
+}
+
+#userPassword {
+    color: rgb(150, 150, 150);
+    width: 250px;
+    background: url(../images/lock.png) no-repeat center left;
+    background-color: #383c49;
+    background-position: 20px;
+    border-radius: 5px;
+    padding-left: 50px;
+}
+
+#submit {
+    font-size: 18px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#submit {
+    color: white;
+    background-color: rgb(235, 91, 139);
+    text-align: center;
+}
+
+#content {
+    padding-top: 200px;
+    height: 250px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    color: rgb(150, 150, 150);
+}
+
+#registration a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    background: url(../images/arrow-pointing-to-right.png) no-repeat center right;
+}
+
+#result_form p {
+    color: #e40505;
+}
